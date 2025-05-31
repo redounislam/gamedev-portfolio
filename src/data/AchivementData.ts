@@ -54,17 +54,19 @@ function makeGameHtml({description, packageName, videos = [], screenshots = [], 
     ${featuresHtml}
   `;
 }
-
-function makeAchievementHtml({description, image, details = []}) {
+interface AchievementParams {
+  description: string;
+  image?: string;  // The ? makes this property optional
+  details?: string[];
+}
+function makeAchievementHtml({description, image = "", details = []}: AchievementParams) {
   const detailsHtml = details.length
-    ? `<div class="paragraph">Details:<ul>${details.map(d => `<li>${d}</li>`).join('')}</ul></div>`
+    ? `<div class="paragraph">Details:<ul>${details.map(d => `<li>${d}</li>`).join('')}</ul></div>` 
     : '';
 
   return `
-    <div class="paragraph center">
-      <img src="${image}" style="max-width: 100%; border-radius: 8px;" alt="Achievement image" />
-    </div>
     <div class="paragraph">${description}</div>
+    ${image ? `<div class="paragraph center"><img src="${image}" style="max-width: 300px;" /></div>` : ''}
     ${detailsHtml}
   `;
 }

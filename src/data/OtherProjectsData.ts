@@ -123,7 +123,7 @@ export default [
         padding-bottom: 5px;
       }
     </style>
-    `, "#333", true, true, true),
+    `, "#333", true, true),
 
     new ProjectData("project-6", "Gameplay Mechanics", "video/gameplay.gif", `
     <div class="paragraph">

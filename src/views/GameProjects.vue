@@ -3,7 +3,7 @@
     <h1>Games</h1>
 
     <div style="margin-bottom: 30px;">
-      The following are some stuff I've made or heavily contributed to.
+      Here are some games I've created, either to be released, or during game jams, or to showcase my skills using Unity.
     </div>
 
     <ProjectsList v-bind:projects="projects" />

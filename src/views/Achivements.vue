@@ -3,7 +3,7 @@
     <h1>Awards</h1>
 
     <div style="margin-bottom: 30px;">
-      And here are some other stuff I've made or heavily contributed to, which are totally different than the stuff from earlier.
+     A snapshot of awards, competition wins, and standout projects across gaming, tech, and research
     </div>
     <ProjectsList v-bind:projects="projects" />
   </div>

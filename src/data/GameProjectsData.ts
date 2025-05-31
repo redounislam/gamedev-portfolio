@@ -238,15 +238,11 @@ new ProjectData(
     </div>
     <div class="paragraph center">
         <a href="https://www.crazygames.com/preview/a3692ced-1328-408f-aff2-5ed75accc41e" target="_blank">
-            <img src="/img/projects/Crazy Game.png" alt="Crazy Games badge" style="height: 80px;"/>
+            <img src="/img/projects/Crazy Game.png" alt="Crazy Games badge" style="height: 150px;"/>
         </a>
     </div>
-    
     <div class="paragraph center">
-        <video autoplay loop muted style="max-width: 100%; border-radius: 8px;">
-            <source src="/video/Turbo_Tag_Snip.gif" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        <img src="video/Turbo_Tag_Snip.gif" alt="Reckless Artillery gameplay" style="max-width: 100%;" />
     </div>
     
     <div class="paragraph">

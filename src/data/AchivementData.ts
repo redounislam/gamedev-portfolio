@@ -89,33 +89,49 @@ export default [
     "#00BFFF" , true , true 
   ),
 
+new ProjectData(
+  "achievement-1",
+  "Brain Jam Champion (2021)",
+  "video/CountingMario.gif", // Assuming you have a GIF for this
+  `
+    <div class="paragraph">
+        <strong>Brain Jam Champion (2021)</strong> - Winner of Brain Jam 2021 organized by Brain Station 23
+    </div>
+    <div class="paragraph">
+        Theme: Drag N Drop Link
+    </div>
+    <div class="paragraph center">
+        <a href="https://example.com/brain-jam-2021" target="_blank"><img src="img/projects/itchio-logo.png" alt="Event Website" /></a>
+    </div>
+    
+    <div class="paragraph center">
+        <img src="video/CountingMario.gif" alt="Brain Jam 2021" style="max-width: 100%;" />
+    </div>
+  `,
+  "#4B0082"
+),
 
-  new ProjectData(
-    "achievement-1",
-    "Brain Jam Champion (2021)",
-    "img/Award/jam1",
-    makeAchievementHtml({
-      description: "Champion of Brain Jam 2021 organized by Brain Station 23",
-      details: [
-        "Theme: Drag N Drop Link"
-      ]
-    }),
-    "#4B0082"
-  ),
-
-  new ProjectData(
-    "achievement-2",
-    "Brain Jam Champion (2020)",
-    "img/Award/Faloon.jpg", // Assuming this exists in your Award folder
-    makeAchievementHtml({
-      description: "Champion of Brain Jam 2020 organized by Brain Station 23",
-      details: [
-        "Theme: Calculation Link"
-      ]
-    }),
-    "#4B0082"
-  ),
-
+new ProjectData(
+  "achievement-2",
+  "Brain Jam Champion (2020)",
+  "video/Fallooon.gif", // Using the same GIF as your game jam project
+  `
+    <div class="paragraph">
+        <strong>Brain Jam Champion (2020)</strong> - Winner of Brain Jam 2020 organized by Brain Station 23
+    </div>
+    <div class="paragraph">
+        Theme: Calculation Link
+    </div>
+    <div class="paragraph center">
+        <a href="https://example.com/brain-jam-2020" target="_blank"><img src="img/projects/itchio-logo.png" alt="Event Website" /></a>
+    </div>
+    
+    <div class="paragraph center">
+        <img src="video/Fallooon.gif" alt="Brain Jam 2020" style="max-width: 100%;" />
+    </div>
+  `,
+  "#4B0082"
+),
   new ProjectData(
     "achievement-3",
     "Global Food Summit Finalist",
@@ -155,7 +171,7 @@ export default [
       details: [
         "Created a game opposite of Blue Whale where you complete social tasks to level up and earn points"
       ],
-      image: "img/Award/KU HackAthon.jpg"
+      image: "img/Award/KU01"
     }),
     "#9370DB"
   ),

@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1>Other stuff</h1>
+    <h1>Published Research & Game Mechanics</h1>
 
     <div style="margin-bottom: 30px;">
-      And here are some other stuff I've made or heavily contributed to, which are totally different than the stuff from earlier.
+      Joystick in one hand, research papers in the other 
     </div>
     <ProjectsList v-bind:projects="projects" />
   </div>
